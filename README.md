@@ -1,7 +1,7 @@
 This repository contains exemplary code to generate and fit photon arrival time histograms from time correlated single photon counting (TCSPC) measurements.
-Additionally, we provide and 1 sample data files each for the common SPC and PTU format that were used in [cite: Publication].  
+Additionally, we provide and 1 sample data files each for the common SPC and PTU format that were used in [1].  
 
-Files in this repository:
+Files in this repository:  
 parsePTUFile.m              -- convert binary PTU-data file of photon arrival times to Matlab structure  
 parseSPCFile.m              -- convert binary SPC-data file of photon arrival times to Matlab structure  
 tcspcIRF.m                  -- adapted from [2]: 5-parameter IRF-model based on a gaussian with asymmetric flanks  
